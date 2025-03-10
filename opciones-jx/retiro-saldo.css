@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.saldo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+button {
+    background-color: #5ee913;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #179611;
+}
+input {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

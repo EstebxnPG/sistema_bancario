@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Saldo</title>
+    <link rel="stylesheet" href="retiro-saldo.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Consulta de Saldo</h2>
+        <p>Saldo actual:</p>
+        <p class="saldo" id="saldo">$100,000</p>
+        <button onclick="actualizarSaldo()">Actualizar Saldo</button>
+        <br>
+        <input type="number" id="monto" placeholder="Monto a retirar">
+        <button onclick="retirarSaldo()">Retirar</button>
+    </div>
+
+    <script src="retiro-saldo.js"></script>
+</body>
+</html>
